@@ -1,116 +1,124 @@
-# 🎵 Spring Music 
+<p align="center">
+  <img width="120" src="https://cdn-icons-png.flaticon.com/512/727/727245.png" />
+</p>
 
-A modern music streaming web app built with **Next.js**, **Firebase**, and **JioSaavn API**.  
-It allows users to explore songs, stream music, and manage playlists in a seamless experience.
+<h1 align="center">🎵 Spring Music</h1>
 
-🚀 **Live Demo:** [Click here to try it](https://spring-music-player-n27p.vercel.app)
+<p align="center">
+  <strong>Plataforma moderna de streaming musical desarrollada con Next.js y Firebase</strong>
+</p>
 
----
-
-## ✨ Features
-
-- 🎧 Stream music from the **JioSaavn API**  
-- 🔍 Search songs, albums, and artists in real-time  
-- 🔐 User authentication (Google/Email login) via Firebase  
-- 📂 Save user data & playlists with Firestore  (future implementation)
-- ⚡ Super-fast rendering with Next.js   
+<p align="center">
+  Disfruta de música en tiempo real, gestiona playlists y accede a una experiencia rápida, escalable y moderna.
+</p>
 
 ---
 
-## 🛠️ Tech Stack
-
-- **Frontend:** [Next.js](https://nextjs.org/) + React  
-- **Music API:** [JioSaavn API (Unofficial)](https://github.com/sumitkolhe/jiosaavn-api)  
-- **Backend & Auth:** [Firebase](https://firebase.google.com/)  
-- **Database:** Firebase Firestore  
-- **Storage:** Firebase Storage  
-- **Deployment:** Vercel  
+<p align="center">
+  <a href="https://spring-music-player-n27p.vercel.app">
+    <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Ver%20Aplicación-000?style=for-the-badge" />
+  </a>
+  <img src="https://img.shields.io/github/stars/isairey/WebStreamingMusic?style=for-the-badge" />
+  <img src="https://img.shields.io/github/forks/isairey/WebStreamingMusic?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues/isairey/WebStreamingMusic?style=for-the-badge" />
+</p>
 
 ---
 
-## 📂 Project Structure
+## ✨ Características
 
-```
+- 🎧 **Streaming en tiempo real** mediante API de música  
+- 🔍 **Búsqueda avanzada** de canciones, artistas y álbumes  
+- 🔐 **Autenticación segura** con Firebase (Google / Email)  
+- 📂 **Gestión de playlists** (en desarrollo)  
+- ⚡ **Alto rendimiento** con renderizado optimizado de Next.js  
+- ☁️ **Infraestructura escalable** con Firebase  
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+#### ⚛️ Frontend
+![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+
+#### 🔥 Backend & Servicios
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Firestore](https://img.shields.io/badge/Firestore-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Firebase Auth](https://img.shields.io/badge/Auth-Firebase-FFCA28?style=for-the-badge&logo=firebase)
+
+#### 🎵 API de Música
+![JioSaavn API](https://img.shields.io/badge/JioSaavn_API-Unofficial-green?style=for-the-badge)
+
+#### 🚀 Deployment
+![Vercel](https://img.shields.io/badge/Vercel-000?style=for-the-badge&logo=vercel&logoColor=white)
+
+---
+
+## 📂 Estructura del proyecto
+
+
 spring-music-web/
-├── public/              # Static assets
-├── src/                 # Source code
-│   ├── components/      # Reusable UI components
-│   ├── pages/           # Next.js pages (routes)
-│   ├── styles/          # Global & module CSS
-│   └── utils/           # Firebase & JioSaavn API helpers
-├── .env.local           # Environment variables
+├── public/ # Recursos estáticos
+├── src/
+│ ├── components/ # Componentes reutilizables
+│ ├── pages/ # Rutas de Next.js
+│ ├── styles/ # Estilos globales
+│ └── utils/ # Configuración Firebase & API
+├── .env.local # Variables de entorno
 ├── package.json
 └── README.md
-```
+
 
 ---
 
-## ⚡ Getting Started
+## ⚙️ Configuración del entorno
 
-### 1. Clone the repository
+### 1️⃣ Clonar repositorio
 ```bash
-git clone https://github.com/yourusername/spring-music-web.git
-cd spring-music-web
-```
-
-### 2. Install dependencies
-```bash
+git clone https://github.com/isairey/WebStreamingMusic.git
+cd WebStreamingMusic
+2️⃣ Instalar dependencias
 npm install
-# or
-yarn install
-```
+3️⃣ Configurar Firebase
+Crear proyecto en Firebase
+Activar autenticación (Google/Email)
+Configurar Firestore
+Configurar Storage
+4️⃣ Variables de entorno
 
-### 3. Setup Firebase
-1. Go to [Firebase Console](https://console.firebase.google.com/)  
-2. Create a new project  
-3. Enable Authentication (Google/Email)  
-4. Setup Firestore Database  
-5. Setup Firebase Storage  
-6. Copy your Firebase config  
+Crear archivo .env.local:
 
-### 4. Add environment variables
-Create a `.env.local` file in the root directory:
-```env
 NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
 NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
 NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
 NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
 NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
 NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
-JIO_SAAVAN_API_BASE_URL=your-api
+JIO_SAAVAN_API_BASE_URL=your_api
 NEXT_PUBLIC_API_URL=your_api_url
-```
-
-### 5. Run the project locally
-```bash
+5️⃣ Ejecutar proyecto
 npm run dev
-# or
-yarn dev
-```
-Now open [http://localhost:3000](http://localhost:3000) 🎉
 
----
+Abrir en navegador:
+👉 http://localhost:3000
 
-## 📦 Deployment
-
-### Deploy on Vercel
-```bash
+🚀 Despliegue
+Deploy en Vercel
 vercel
-```
+📊 Roadmap
+ Sistema completo de playlists
+ Historial de reproducción
+ Recomendaciones inteligentes
+ Modo offline
+ UI/UX mejorada tipo Spotify
+🤝 Contribuidores
+<a href="https://github.com/isairey/WebStreamingMusic/graphs/contributors"> <img src="https://contrib.rocks/image?repo=isairey/WebStreamingMusic" /> </a>
+👤 Autor
 
----
+Isai Reyes
 
-## ​ Contributors
+GitHub: https://github.com/isairey
+📜 Licencia
 
-A big shout-out to all the amazing people who’ve contributed to this project:
-
-<a href="https://github.com/isairey/WebStreamingMusic/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=isairey/WebStreamingMusic" />
-</a>
-
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
----
+Este proyecto está bajo la licencia MIT.
