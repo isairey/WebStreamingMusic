@@ -57,7 +57,7 @@
 
 ## 📂 Estructura del proyecto
 
-
+```
 spring-music-web/
 ├── public/ # Recursos estáticos
 ├── src/
@@ -68,7 +68,7 @@ spring-music-web/
 ├── .env.local # Variables de entorno
 ├── package.json
 └── README.md
-
+```
 
 ---
 
@@ -78,17 +78,23 @@ spring-music-web/
 ```bash
 git clone https://github.com/isairey/WebStreamingMusic.git
 cd WebStreamingMusic
-2️⃣ Instalar dependencias
+```
+### 2️⃣ Instalar dependencias
+```
 npm install
-3️⃣ Configurar Firebase
+```
+### 3️⃣ Configurar Firebase
+```
 Crear proyecto en Firebase
 Activar autenticación (Google/Email)
 Configurar Firestore
 Configurar Storage
+```
+###
 4️⃣ Variables de entorno
 
 Crear archivo .env.local:
-
+```
 NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
 NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
 NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
@@ -97,28 +103,46 @@ NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
 NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
 JIO_SAAVAN_API_BASE_URL=your_api
 NEXT_PUBLIC_API_URL=your_api_url
-5️⃣ Ejecutar proyecto
+```
+
+### 5️⃣ Ejecutar proyecto
+```
 npm run dev
-
+```
 Abrir en navegador:
+```
 👉 http://localhost:3000
+```
 
-🚀 Despliegue
+---
+
+## 🚀 Despliegue
+```
 Deploy en Vercel
 vercel
-📊 Roadmap
- Sistema completo de playlists
- Historial de reproducción
- Recomendaciones inteligentes
- Modo offline
- UI/UX mejorada tipo Spotify
-🤝 Contribuidores
+```
+
+## 📊 Roadmap
+
+- [ x ] Sistema completo de playlists  
+- [ x ] Historial de reproducción  
+- [ x ] Recomendaciones inteligentes  
+- [ x ] Modo offline  
+- [ x ] UI/UX mejorada tipo Spotify  
+
+ ---
+ 
+## 🤝 Contribuidores
+
 <a href="https://github.com/isairey/WebStreamingMusic/graphs/contributors"> <img src="https://contrib.rocks/image?repo=isairey/WebStreamingMusic" /> </a>
 👤 Autor
 
-Isai Reyes
+**Isai Reyes**
 
 GitHub: https://github.com/isairey
-📜 Licencia
+
+---
+
+## 📜 Licencia
 
 Este proyecto está bajo la licencia MIT.
