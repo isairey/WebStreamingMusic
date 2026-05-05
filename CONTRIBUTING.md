@@ -21,7 +21,7 @@ Antes de enviar un Pull Request (PR), por favor revisa las siguientes pautas.
    ```bash
    git clonehttps://github.com/isairey/WebStreamingMusic.git
    cd WebStreamingMusic
- ```
+   ```
 Instala dependencias:
  ```
 npm install
