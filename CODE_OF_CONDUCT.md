@@ -78,7 +78,7 @@ Ejemplos:
 
 Los comportamientos abusivos o inapropiados pueden reportarse a:
 
-📧 **[Agrega aquí tu correo o contacto]**
+📧 **[isaireyes2003@gmail.com]**
 
 Todas las denuncias serán:
 
