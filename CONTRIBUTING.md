@@ -19,8 +19,8 @@ Antes de enviar un Pull Request (PR), por favor revisa las siguientes pautas.
 
 1. Clona el repositorio:
    ```bash
-   git clone <repo-url>
-   cd <nombre-del-proyecto>
+   git clonehttps://github.com/isairey/WebStreamingMusic.git
+   cd WebStreamingMusic
  ```
 Instala dependencias:
  ```
