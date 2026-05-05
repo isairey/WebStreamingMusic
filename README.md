@@ -104,8 +104,8 @@ vercel
 
 A big shout-out to all the amazing people who’ve contributed to this project:
 
-<a href="https://github.com/Satyam1923/Spring-Music-Player/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Satyam1923/Spring-Music-Player" />
+<a href="https://github.com/isairey/WebStreamingMusic/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=isairey/WebStreamingMusic" />
 </a>
 
 
