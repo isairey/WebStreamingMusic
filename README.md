@@ -135,7 +135,7 @@ vercel
 ## 🤝 Contribuidores
 
 <a href="https://github.com/isairey/WebStreamingMusic/graphs/contributors"> <img src="https://contrib.rocks/image?repo=isairey/WebStreamingMusic" /> </a>
-👤 Autor
+
 
 **Isai Reyes**
 
